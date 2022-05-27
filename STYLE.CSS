@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -50deg,
+    #3BACB6 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 105px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+body{
+	background-image: url(https://images.pexels.com/photos/247597/pexels-photo-247597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	position: fixed;
+}
+header{
+
+	background-size: cover;
+	height:100vh;
+	background-position: center;
+}
+h1{
+	background-color: #3BACB6;
+	background-blend-mode:;
+	animation: step-start;
+}
+
+
+}
+ul{
+	float: inherit;
+	list-style-type: none;
+}
+ul li{
+	display: inline-block;
+	line-height: 2;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	
+	transition: 0.6s ease;
+
+}
+ul li a:hover{
+	background-color: #A4EBF3;
+	color: #000;
+}
+.active{
+background-color: rgb(22, 10, 100);
+text-decoration-color: black;}
